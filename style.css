@@ -3,6 +3,10 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+
+    background: #000;
+}
 header .header_img{
     width: 100vw;
     height: 20vh;
@@ -46,4 +50,33 @@ header nav ul li a {
 }
 header nav ul li a:hover{
     color: #1F2544;
+}
+
+
+
+/* starting body section  */
+main{
+    width: 100%;
+    display: flex;
+    /* background: #000; */
+}
+main .description{
+    /* z-index: 5; */
+    width: 50%;
+}
+main .description h1{
+    z-index: 1;
+    color: rebeccapurple;
+
+}
+/* main .img_des{
+    width: 50%;
+} */
+main .img_des img{
+    width: 100%;
+    z-index: 1;
+}
+#whitepage{
+    z-index:-1;
+    position: absolute;
 }
