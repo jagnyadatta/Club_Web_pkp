@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 body{
 
-    background: #000;
+    /* background: #000; */
 }
 header .header_img{
     width: 100vw;
@@ -61,11 +62,11 @@ main{
     /* background: #000; */
 }
 main .description{
-    /* z-index: 5; */
+    z-index: 5;
     width: 50%;
 }
-main .description h1{
-    z-index: 1;
+main .description h1 , main .description p{
+    /* z-index: 2; */
     color: rebeccapurple;
 
 }
@@ -74,9 +75,9 @@ main .description h1{
 } */
 main .img_des img{
     width: 100%;
-    z-index: 1;
+    z-index: -1;
 }
 #whitepage{
-    z-index:-1;
+    z-index:1;
     position: absolute;
 }
