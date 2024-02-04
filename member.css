@@ -1,21 +1,26 @@
+html{
+    margin: 20px;
+}
 
-
-
+/* President and Secretary section css */
 
 .headclub{
     display: flex;
     gap: 50px;
-    margin-left: 30%;
-    margin-right: -30%;
+    margin-left: 10%;
+    /* margin-right: -30%; */
 }
 .card{
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid black;
+    border-radius: 7px;
     height: 200px;
     padding: 20px;
 }
-.card img{
+.card .card-head-img{
     border: 2px solid yellowgreen;
+    border-radius: 5px;
     width: 40%;
     height: 98%;
 }
@@ -23,4 +28,51 @@
 .head-details{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 20px;
+}
+.head-details .social-icons img{
+    width: 40px;
+    height: 30px;
+}
+.head-details .social-icons span{
+    display: inline;
+}
+.head-details h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(168, 251, 225);
+}
+.head-details p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.head-details p span{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* Commit Member Section Css */
+
+.card-commit{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card-commit div{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
+.card-commit img{
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    width: 200px;
+}
+.card-commit p{
+    border: 2px solid red;
+    margin: 5px 0px 0px 0px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
 }
