@@ -34,6 +34,9 @@ header .header_img p{
 header nav{
     display: flex;
     justify-content: center;
+    height: 50px;
+    background: #bcbdc2;
+    align-items: center;
 }
 header nav ul{
     width: 80%;
@@ -59,25 +62,29 @@ header nav ul li a:hover{
 main{
     width: 100%;
     display: flex;
-    /* background: #000; */
 }
 main .description{
     z-index: 5;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
 }
 main .description h1 , main .description p{
-    /* z-index: 2; */
     color: rebeccapurple;
+    font-size: 2vw;
 
 }
-/* main .img_des{
+main .img_des{
     width: 50%;
-} */
+}
 main .img_des img{
     width: 100%;
-    z-index: -1;
 }
 #whitepage{
-    z-index:1;
     position: absolute;
+    /* border: 1px solid black; */
+    height: 76vh;
+    width: 100vw;
 }
