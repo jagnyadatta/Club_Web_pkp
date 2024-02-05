@@ -5,8 +5,8 @@ html{
 }
 
 .container h1{
-    color: azure;
-    margin-top: 40px;
+    color: rgb(2, 40, 39);
+    margin-top: 5px;
     margin-left: 40%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -14,7 +14,7 @@ html{
 .container .cont-name{
     border: none;
     border-radius: 20px;
-    background-color: black;
+    background-color: #bcbdc2;
 }
 
 /* President and Secretary section css */
@@ -81,7 +81,7 @@ html{
 } */
 .commit-club .cont-name h2{
     font-size: 25px;
-    color: azure;
+    color: rgb(2, 40, 39);
     margin-top: 40px;
     margin-left: 40%;
     padding-top: 5px;
