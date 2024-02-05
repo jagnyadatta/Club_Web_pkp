@@ -81,3 +81,36 @@ main .img_des img{
     z-index:1;
     position: absolute;
 }
+#contact{
+   display: flex;
+   justify-content: center;
+   height: 80vh;
+   
+   
+}
+.contactus{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactus h2{
+    font-size: 40px;
+}
+.contactus2 input{
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+.contactus2{
+    /* border: 1px solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin-top: 20px;
+}
