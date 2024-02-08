@@ -34,6 +34,9 @@ header .header_img p{
 header nav{
     display: flex;
     justify-content: center;
+    height: 50px;
+    background: #bcbdc2;
+    align-items: center;
 }
 header nav ul{
     width: 80%;
@@ -59,58 +62,25 @@ header nav ul li a:hover{
 main{
     width: 100%;
     display: flex;
-    /* background: #000; */
 }
 main .description{
     z-index: 5;
     width: 50%;
-}
-main .description h1 , main .description p{
-    /* z-index: 2; */
-    color: rebeccapurple;
-
-}
-/* main .img_des{
-    width: 50%;
-} */
-main .img_des img{
-    width: 100%;
-    z-index: -1;
-}
-#whitepage{
-    z-index:1;
-    position: absolute;
-}
-#contact{
-   display: flex;
-   justify-content: center;
-   height: 80vh;
-   
-   
-}
-.contactus{
-    border: 1px solid black;
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-left: 50px;
 }
-.contactus h2{
-    font-size: 40px;
+main .description h1 , main .description p{
+    color: rebeccapurple;
+    font-size: 2vw;
+
 }
-.contactus2 input{
-    height: 35px;
-    border-radius: 5px;
-    padding: 5px 5px;
-    margin-bottom: 20px;
-}
-.contactus2{
-    /* border: 1px solid black; */
+main .img_des{
     width: 50%;
-    display: flex;
-    flex-direction: column;
 }
-button{
-    margin-top: 20px;
+main .img_des img{
+    width: 100%;
 }
+#whitepage{
+    position: absolute;
