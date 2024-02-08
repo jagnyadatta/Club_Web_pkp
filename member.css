@@ -68,7 +68,7 @@ html{
    font-size: 35px;
    /* transform-style: preserve-3d; */
    transition: .3s;
-   transform: rotateZ(20deg);
+   transform: rotateZ(10deg);
 }
 .head-details h2{
     border: none;
@@ -150,4 +150,22 @@ html{
     border-radius: 5px;
     background-color: rgba(8, 8, 7, 0.891);
     text-shadow: 2px 2px 4px rgb(255, 43, 241);
+}
+.commit-club .card-commit .social-icons{
+    display: flex;
+    justify-content: center;
+    border: none;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.commit-club .card-commit .social-icons a{
+    transform: rotateZ(0deg);
+    transition: .3s;
+}
+.commit-club .card-commit .social-icons a:hover{
+   font-size: 35px;
+   /* transform-style: preserve-3d; */
+   transition: .3s;
+   transform: rotateZ(10deg);
 }
