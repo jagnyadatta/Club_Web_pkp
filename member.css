@@ -17,7 +17,7 @@ html{
     background-color: #bcbdc2;
 }
 
-/* President and Secretary section css */
+/*-------------------------------------------- President and Secretary section css------------------------- */
 
 .headclub{
     display: flex;
@@ -88,7 +88,7 @@ html{
     font-weight: normal;
 }
 
-/* Commit Member Section Css */
+/* --------------------------Commit Member Section Css------------------------------ */
 
 /* .commit-club .cont-name{
     background-color: black;
@@ -168,4 +168,52 @@ html{
    /* transform-style: preserve-3d; */
    transition: .3s;
    transform: rotateZ(10deg);
+}
+
+/*---------------------------------------- Other members Section----------------------------------*/
+
+.container .cont-name h2{
+    font-size: 25px;
+    color: rgb(2, 40, 39);
+    margin-top: 40px;
+    margin-left: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.all-members{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 5px;
+}
+.all-members div{
+    border: 2px solid rgb(231, 214, 28);
+    border-radius: 5px;
+    padding: 4px;
+    width: 200px;
+    overflow: hidden;
+}
+.all-members .card-img{
+    display: flex;
+    border: none;
+    justify-content: center;
+}
+.all-members div img{
+    border: 2px solid rgb(23, 11, 247);
+    border-radius: 5px;
+    width: 70%;
+}
+.all-members div p{
+    /* margin-left: 30px; */
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px 0px 0px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(43, 245, 167, 0.67);
+    text-shadow: 2px 2px 2px rgb(255, 164, 238);
 }
