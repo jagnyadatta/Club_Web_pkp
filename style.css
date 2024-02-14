@@ -196,7 +196,7 @@ marquee{
     justify-content: center;
 }
 .contact .part-1{
-    width: 50%;
+    width: 70%;
     border: 2px solid #474F7A;
     border-radius: 10px;
     padding: 5%;
@@ -212,11 +212,11 @@ marquee{
     width: 100%;
     background-color: #edeff1;
     border-radius: 5px;
-    padding: 1.5%;
+    padding: 1%;
 }
 
 .contact .part-2{
-    width: 50%;
+    width: 30%;
     height: 50%;
     border: 2px solid #474F7A;
     border-radius: 10px;
