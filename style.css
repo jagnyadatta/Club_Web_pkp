@@ -173,3 +173,27 @@ main .img_des img {
     font-size: 20px;
     color: #000000;
 }
+
+
+
+/* ========================Contact Page==========================  */
+
+.contact{
+    padding: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    gap: 40px;
+    margin-left: 10%;
+}
+.contact .part-1{
+    /* display: ; */
+    justify-content: center;
+    border: 2px solid #474F7A;
+    padding: 5%;
+}
+.contact .part-2{
+    /* display: ; */
+    justify-content: center;
+    border: 2px solid #474F7A;
+    padding: 5%;
+}
