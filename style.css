@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
-}
-body{
 
-    /* background: #000; */
 }
-header .header_img{
+/* 
+body{
+    background: #000;
+} */
+
+header .header_img {
     width: 100vw;
     height: 20vh;
     /* background: #000; */
@@ -17,28 +18,31 @@ header .header_img{
     align-items: center;
 }
 
-header .header_img .left_img{
+header .header_img .left_img {
     height: 70%;
     width: 20%;
     display: flex;
     justify-content: center;
 }
-header .header_img .left_img img{
+
+header .header_img .left_img img {
     height: 100%;
 }
 
-header .header_img p{
+header .header_img p {
     font-size: 3.5vw;
     font-weight: bold;
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: center;
     height: 50px;
     background: #bcbdc2;
     align-items: center;
 }
-header nav ul{
+
+header nav ul {
     width: 80%;
     /* background: #000; */
     display: flex;
@@ -46,24 +50,27 @@ header nav ul{
     gap: 10%;
     list-style: none;
 }
+
 header nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     color: #474F7A;
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     color: #1F2544;
 }
 
 
 
 /* starting body section  */
-main{
+main {
     width: 100%;
     display: flex;
 }
-main .description{
+
+main .description {
     z-index: 5;
     width: 50%;
     display: flex;
@@ -71,44 +78,154 @@ main .description{
     justify-content: center;
     margin-left: 50px;
 }
-main .description h1 , main .description p{
+
+main .description h1,
+main .description p {
     color: rebeccapurple;
     font-size: 2vw;
 
 }
-main .img_des{
+
+main .img_des {
     width: 50%;
 }
-main .img_des img{
+
+main .img_des img {
     width: 100%;
 }
-#whitepage{
+
+#whitepage {
     position: absolute;
     /* border: 1px solid black; */
     height: 76vh;
     width: 100vw;
 }
+
+
+/*========================== hELLO CHANDRA FOOTER  I CREATED FOOTER DIV ======================= */
+.footer-body {
+    padding: 40px 0;
+    background-color: #aaa5a5;
+    margin-top: 25px;
+}
+
+.footer-body .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer-body .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #cccccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
+.footer-body .social a:hover {
+    opacity: 0.9;
+    color: white;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+.footer-body ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-body ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.footer-body ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer-body ul a:hover {
+    opacity: 1;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.footer-body .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+
+/* ========================Contact Page==========================  */
+
+marquee{
+    padding: 5px;
+    background-color: #474F7A;
+    color: white;
+}
 .contact{
-    /* background: #000; */
+    padding: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
-    flex-direction: column;
+    gap: 40px;
+    /* margin-left: 10%; */
+    width: 100%;
+}
+.contact h3{
+    display: flex;
     justify-content: center;
 }
-.contact .container{
-    width: 40%;
-    height: 50vh;
-    display: flex;   
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
+.contact .part-1{
+    width: 70%;
+    border: 2px solid #474F7A;
+    border-radius: 10px;
+    padding: 5%;
+    padding-top: 1%;
+    background-color: #d6d7d8;
+    overflow: hidden;
 }
-.contact .container input{
-    height: 6%;
+.part-1 li{
+    list-style: none;
+    margin-top: 1%;
+}
+.part-1 li input{
+    width: 100%;
+    background-color: #edeff1;
     border-radius: 5px;
-    padding: 5px 5px;
-    margin-bottom: 5%;
-    
+    padding: 1%;
 }
-.contact .container p {
-    /* margin-bottom: ; */
+
+.contact .part-2{
+    width: 30%;
+    height: 50%;
+    border: 2px solid #474F7A;
+    border-radius: 10px;
+    padding: 5%;
+    padding-top: 1%;
+    overflow: hidden;
+    background-color: #d6d7d8;
+}
+
+.part-2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
