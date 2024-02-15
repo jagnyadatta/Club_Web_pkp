@@ -1,7 +1,8 @@
 html {
     margin-left: 20px;
     margin-right: -20px;
-    background-color: rgba(251, 254, 255, 0.624);
+    /* background-color: rgba(251, 254, 255, 0.624); */
+    background-color: #fff5d7;
 }
 
 .container h1 {
@@ -41,6 +42,7 @@ html {
     height: 200px;
     /* padding: 20px; */
     margin-right: -35px;
+    /* background-color: #1dbab4; */
 }
 
 .card .card-head-img {
@@ -127,6 +129,8 @@ html {
     border-radius: 5px;
     padding: 4px;
     width: 250px;
+    background-color: #def8f7;
+    overflow: hidden;
 }
 
 .card-commit img {
@@ -215,6 +219,8 @@ html {
     padding: 4px;
     width: 200px;
     overflow: hidden;
+    /* background-color: #ccb064; */
+    background-color: #f9f8fd;
 }
 
 .all-members .card-img {
@@ -240,7 +246,7 @@ html {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.966);
+    background-color: #3d3d3f;
     text-shadow: 2px 2px 2px rgb(0, 202, 27);
 }
 
