@@ -1,4 +1,9 @@
-html {
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    html {
     margin-left: 20px;
     margin-right: -20px;
     /* background-color: rgba(251, 254, 255, 0.624); */
