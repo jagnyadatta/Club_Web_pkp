@@ -114,15 +114,6 @@ html {
 /* .commit-club .cont-name{
     
 } */
-.commit-club .cont-name h2 {
-    font-size: 25px;
-    color: rgb(2, 40, 39);
-    margin-top: 40px;
-    margin-left: 40%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 .card-commit {
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +123,15 @@ html {
     /* margin: 25px 40px 0px 40px;
     width: 100%; */
 }
+.commit-club .cont-name h2 {
+    font-size: 25px;
+    color: rgb(2, 40, 39);
+    margin-top: 40px;
+    margin-left: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 
 .card-commit div {
     border: 2px solid rgb(231, 214, 28);
