@@ -105,9 +105,16 @@ main .img_des img {
     height: 76vh;
     width: 100%;
 }
+/* ========================Gallery Section==================== */
+.gallery-container
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #474F7A;
+    margin-bottom: 10px;
+}
 
-
-/*========================== hELLO CHANDRA FOOTER  I CREATED FOOTER DIV ======================= */
+/*========================== FOOTER DIV ======================= */
 .footer-body {
     padding: 40px 0;
     background-color: #aaa5a5;
