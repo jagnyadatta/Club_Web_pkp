@@ -299,7 +299,16 @@ marquee {
     background-color: #474F7A;
     color: white;
 }
-
+/* about section start  */
+#about{
+    width: 100%;
+    background-color: #474F7A;
+}
+.about-sec{
+    display: flex;
+    height: 100vh;
+}
+/* about section end */
 /* contact us start */
 #contactus {
     height: 100vh;
