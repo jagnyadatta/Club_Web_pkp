@@ -2,30 +2,27 @@
     margin: 0;
     padding: 0;
 }
-html {
-    /* margin-left: 20px;
-    margin-right: -20px; */
-    /* background-color: rgba(251, 254, 255, 0.624); */
-    background-color: #fff5d7;
-}
 .container{
+    /* border: 2px solid red; */
+    overflow: hidden;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .container h1 {
-    color: rgb(2, 40, 39);
+    color: rgb(0, 13, 255);
     margin-top: 5px;
     margin-left: 40%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    text-shadow: 2px 2px 20px #ff0d00;
 }
 
 .container .cont-name {
     border: none;
     margin-top: 5px;
-    background-color: #bcbdc2;
+    /* background-color: #bcbdc2; */
 }
 
 /*-------------------------------------------- President and Secretary section css------------------------- */
@@ -35,10 +32,7 @@ html {
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 30px;
-    /* margin-left: 0%; */
-    /* padding-top: 20px; */
-    /* padding-bottom: 20px; */
-    /* margin-right: -30%; */
+    margin-left: 2%;
 }
 
 .card {
@@ -55,10 +49,16 @@ html {
 }
 
 .card .card-head-img {
-    border: 2px solid yellowgreen;
+    border-radius: 38px 38px 38px 38px;
+    -moz-border-radius: 38px 38px 38px 38px;
+    -webkit-border-radius: 38px 38px 38px 38px;
+    border: 2px solid #0298b3;
+    -webkit-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+    -moz-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+    box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
     border-radius: 5px;
     width: 40%;
-    height: 98%;
+    height: 95%;
 }
 
 .head-details {
@@ -107,100 +107,6 @@ html {
 .head-details p span {
     font-size: 15px;
     font-weight: normal;
-}
-
-/* --------------------------Commit Member Section Css------------------------------ */
-
-/* .commit-club .cont-name{
-    
-} */
-.card-commit {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    /* margin: 25px 40px 0px 40px;
-    width: 100%; */
-}
-.commit-club .cont-name h2 {
-    font-size: 25px;
-    color: rgb(2, 40, 39);
-    margin-top: 40px;
-    margin-left: 40%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-
-.card-commit div {
-    border: 2px solid rgb(231, 214, 28);
-    border-radius: 5px;
-    padding: 4px;
-    width: 250px;
-    background-color: #def8f7;
-    overflow: hidden;
-}
-
-.card-commit img {
-    border: 2px solid rgb(23, 11, 247);
-    border-radius: 5px;
-    width: 90%;
-}
-
-.card-commit .card-img {
-    display: flex;
-    border: none;
-    justify-content: center;
-}
-
-.card-commit p {
-    border: none;
-    border-radius: 5px;
-    margin: 5px 0px 0px 0px;
-    padding: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: rgba(238, 163, 0, 0.67);
-    text-shadow: 2px 2px 2px rgb(255, 255, 255);
-}
-
-.card-commit .i {
-    display: flex;
-    justify-content: center;
-    border: none;
-    margin: -10px;
-}
-
-.card-commit .i .post-name {
-    color: azure;
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    background-color: rgba(8, 8, 7, 0.891);
-    text-shadow: 2px 2px 4px rgb(255, 43, 241);
-}
-
-.commit-club .card-commit .social-icons {
-    display: flex;
-    justify-content: center;
-    border: none;
-    gap: 30px;
-    font-size: 30px;
-}
-
-.commit-club .card-commit .social-icons a {
-    transform: rotateZ(0deg);
-    transition: .3s;
-}
-
-.commit-club .card-commit .social-icons a:hover {
-    font-size: 35px;
-    /* transform-style: preserve-3d; */
-    transition: .3s;
-    transform: rotateZ(10deg);
 }
 
 /*---------------------------------------- Other members Section----------------------------------*/
