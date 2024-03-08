@@ -257,7 +257,7 @@ main {
     background: #444;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
 
     #slide1:checked~#controls label:nth-child(2),
     #slide2:checked~#controls label:nth-child(3),
@@ -274,7 +274,7 @@ main {
         max-width: calc(100% - 140px);
         margin: 0 auto;
     }
-}
+} */
 
 /* =========== member section started ======= */
 #member{
@@ -312,7 +312,6 @@ main {
     width: 15%;
     height: 200px;
     font-size: 15px;
-    /* font-weight: bold; */
     border-radius: 38px 38px 38px 38px;
     -moz-border-radius: 38px 38px 38px 38px;
     -webkit-border-radius: 10px;
