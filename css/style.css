@@ -6,7 +6,6 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-
     /* border: 2px solid red; */
 }
 
@@ -40,8 +39,10 @@ header .header_img .left_img img {
 }
 
 header .header_img p {
+    color: #302a2a;
     font-size: 3.5vw;
     font-weight: bold;
+    text-shadow: .5px .5px 10px rgba(182,101,214,1);
 }
 
 
@@ -97,11 +98,10 @@ main {
     display: grid;
     width: 100%;
     height: 100vh;
-    color: white;
+    color: rgb(64, 22, 22);
     text-align: center;
     font-size: 30px;
-    text-shadow: 2px 2px 20px rgb(235, 221, 221);
-    background-color: #474F7A;
+    text-shadow: 2px 2px 20px rgb(255, 24, 151);
     margin-bottom: 2px;
     padding: 10px 0px 10px 0px;
 }
@@ -125,9 +125,13 @@ main {
 #slides {
     padding: 10px;
     border: 3px solid #ccc;
+    border-radius: 10px;
     background: #fff;
     position: relative;
     z-index: 1;
+    -webkit-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+    -moz-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+    box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
 }
 
 #overflow {
@@ -275,36 +279,40 @@ main {
 /* =========== member section started ======= */
 #member{
     width: 100%;
-    height: 150vh;
+    /* height: 350h; */
 }
 .commit-club{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
     margin-top: 20px;
+    width: 100vw;
 }
 .commit-club h2{
+    text-align: center;
     color: rgb(0, 13, 255);
     font-size: 25px;
     text-shadow: 2px 2px 20px #d4ff00;
 }
 .card-commit{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
+    justify-content:space-evenly;
+    /* width: 10%; */
+    height: 230px;
     margin-top: 20px;
-    gap: 30px;
+    /* gap: 30px; */
     /* border: 2px solid #ef00f7; */
 }
 .commit-club .card-commit .person{
+    text-align: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    width: 95%;
-    height: 55%;
+    align-items: center;
+    width: 15%;
+    height: 200px;
     font-size: 15px;
-    font-weight: bold;
+    /* font-weight: bold; */
     border-radius: 38px 38px 38px 38px;
     -moz-border-radius: 38px 38px 38px 38px;
     -webkit-border-radius: 10px;
@@ -312,7 +320,6 @@ main {
     -webkit-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
     -moz-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
     box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
-
 }
 .commit-club .card-commit .person img{
     width: 70%;
@@ -320,9 +327,53 @@ main {
     border: 1px solid #0298b3;
 }
 
+/* ========== all other members section ========== */
+.commit-club1{
+    /* background: #b67777; */
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 250vh;
+}
+.commit-club1 h2{
+    text-align: center;
+}
+.commit-club1 .card-commit1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+.commit-club1 .card-commit1 .person1{
+    margin-top: 20px ;
+    text-align: center;
+    border: 4px solid green;
+    height: 30%;
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    border-radius: 38px 38px 38px 38px;
+    -moz-border-radius: 38px 38px 38px 38px;
+    -webkit-border-radius: 10px;
+    border: 2px solid #0298b3;
+    -webkit-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+    -moz-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+    box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+}
+
+.commit-club1 .card-commit1 .person1 img{
+    height: 80%;
+    border: 1px solid #0298b3;
+}
+
 @media screen and (max-width: 780px){
     header .header_img{
-        width: 100%;
+        width: 10%;
     }
     header .header_img .left_img{
         height: 50%;
@@ -375,11 +426,6 @@ main {
         padding: 0%;
         overflow: hidden;
     }
-    /* #bullets {
-        margin: 150px 0 0;
-        text-align: center;
-        margin-left: 90px;
-    } */
 }
 
 /* about section start  */
