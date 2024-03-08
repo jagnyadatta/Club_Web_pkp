@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
 .container{
     /* border: 2px solid red; */
@@ -12,10 +13,9 @@
 
 .container h1 {
     color: rgb(0, 13, 255);
+    text-align: center;
+    font-size: 30px;
     margin-top: 5px;
-    margin-left: 40%;
-    /* padding-top: 5px;
-    padding-bottom: 5px; */
     text-shadow: 2px 2px 20px #ff0d00;
 }
 
@@ -111,9 +111,10 @@
 
 /*---------------------------------------- Other members Section----------------------------------*/
 
-.container .cont-name h2 {
+.container .cont-name h1 {
     font-size: 25px;
-    color: rgb(2, 40, 39);
+    text-align: center;
+    color: rgb(42, 33, 23);
     margin-top: 40px;
     margin-left: 40%;
     padding-top: 5px;
