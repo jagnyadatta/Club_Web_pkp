@@ -80,4 +80,46 @@
         -moz-box-shadow: 0px 1px 8px 1px rgb(255, 17, 0);
         box-shadow: 0px 1px 8px 1px rgb(255, 0, 0);
     }
+    /* ==============member section==============  */
+    #member {
+        margin-top: 3%;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .container h1{
+        font-size: 20px;
+    }
+    .head-details h2{
+        font-size: 25px;
+    }
+    .head-details p{
+        font-size: 17px;
+    }
+    /*=== Commit Section==*/
+    .card-commit{
+        margin-top: 8%;
+    }
+    .commit-club h2{
+        font-size: 23px;
+    }
+    .card-commit{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .commit-club .card-commit .person{
+        width: 35%;
+        height: 200px;
+        font-size: 13px;
+    }
+    /*=== Other Member ===*/
+    .commit-club1{
+        margin-top: 8%;
+    }
+    .commit-club1 h2{
+        font-size: 23px;
+    }
+    .commit-club1 .card-commit1{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
