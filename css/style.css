@@ -27,6 +27,7 @@ header .header_img {
     justify-content: center;
     align-items: center;
 }
+
 header .header_img .left_img {
     height: 70%;
     width: 10%;
@@ -42,7 +43,7 @@ header .header_img p {
     color: #302a2a;
     font-size: 3.5vw;
     font-weight: bold;
-    text-shadow: .5px .5px 10px rgba(182,101,214,1);
+    text-shadow: .5px .5px 10px rgba(182, 101, 214, 1);
 }
 
 
@@ -76,6 +77,7 @@ header nav ul li a:hover {
     color: #ffffff;
     text-shadow: .5px .5px 2px rgb(20, 228, 255);
 }
+
 marquee {
     padding: 5px;
     background-color: #474F7A;
@@ -129,9 +131,9 @@ main {
     background: #fff;
     position: relative;
     z-index: 1;
-    -webkit-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
-    -moz-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
-    box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+    -webkit-box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    -moz-box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
 }
 
 #overflow {
@@ -276,23 +278,26 @@ main {
     }
 } */
 
-#gallery .channel{
+#gallery .channel {
     width: 100%;
     height: auto;
     justify-content: center;
     margin-top: 10px;
 }
-#gallery .channel h3{
+
+#gallery .channel h3 {
     text-align: center;
 }
-#gallery .channel h5{
+
+#gallery .channel h5 {
     text-align: left;
     padding-left: 5%;
     color: #443ef1;
     text-shadow: 2px 2px 20px rgb(232, 255, 24);
     text-decoration: underline;
 }
-#gallery .channel .videos{
+
+#gallery .channel .videos {
     /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
@@ -301,16 +306,19 @@ main {
     gap: 40px;
     margin-bottom: 2%;
 }
-#gallery .channel .videos .box-card{
+
+#gallery .channel .videos .box-card {
     /* border: 1px solid red; */
     border-radius: 3%;
     width: auto;
     height: auto;
 }
-#gallery .channel .videos .box-card p{
+
+#gallery .channel .videos .box-card p {
     font-size: 20px;
 }
-#gallery .channel .videos .box-card iframe{
+
+#gallery .channel .videos .box-card iframe {
     border-radius: 3%;
     width: 100%;
     height: 100%;
@@ -318,35 +326,132 @@ main {
     -moz-box-shadow: 0px 1px 18px 8px rgb(255, 17, 0);
     box-shadow: 0px 1px 18px 8px rgb(255, 0, 0);
 }
-/* =========== member section started ======= */
-#member{
-    margin-top: 22%;
+
+/*----- President and Secretary section css---- */
+#member {
+    margin-top: 25%;
     width: 100%;
     /* height: auto; */
+    /* border: 1px solid red; */
 }
-.commit-club{
+
+.container h1 {
+    color: rgb(0, 13, 255);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 20px #ff0d00;
+}
+
+.headclub {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 2%;
+}
+
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 5px solid rgba(245, 248, 250, 0.624);
+    border-radius: 7px;
+    width: 100%;
+    max-width: fit-content;
+    height: 200px;
+    /* padding: 20px; */
+    margin-right: -35px;
+    /* background-color: #1dbab4; */
+}
+
+.card .card-head-img {
+    border-radius: 38px 38px 38px 38px;
+    -moz-border-radius: 38px 38px 38px 38px;
+    -webkit-border-radius: 38px 38px 38px 38px;
+    border: 2px solid #0298b3;
+    -webkit-box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    -moz-box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    border-radius: 5px;
+    width: 40%;
+    height: 95%;
+}
+
+.head-details {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+.head-details .social-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.head-details .social-icons img {
+    width: 40px;
+    height: 30px;
+}
+
+.head-details .social-icons a {
+    transform: rotateZ(0deg);
+    transition: .3s;
+}
+
+.head-details .social-icons a:hover {
+    font-size: 35px;
+    /* transform-style: preserve-3d; */
+    transition: .3s;
+    transform: rotateZ(10deg);
+}
+
+.head-details h2 {
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(168, 251, 225);
+}
+
+.head-details p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.head-details p span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+/* =========== member section started ======= */
+.commit-club {
     /* display: flex; */
     /* flex-wrap: wrap; */
     /* justify-content: center; */
     margin-top: 20px;
     width: 100vw;
 }
-.commit-club h2{
-    text-align: center;
+
+.commit-club h2 {
     color: rgb(0, 13, 255);
-    font-size: 25px;
-    text-shadow: 2px 2px 20px #d4ff00;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 20px #ff0d00;
 }
-.card-commit{
+
+.card-commit {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
     /* width: 10%; */
-    height: 230px;
+    height: auto;
     margin-top: 20px;
-    /* gap: 30px; */
+    gap: 30px;
     /* border: 2px solid #ef00f7; */
 }
-.commit-club .card-commit .person{
+
+.commit-club .card-commit .person {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -359,56 +464,62 @@ main {
     -moz-border-radius: 38px 38px 38px 38px;
     -webkit-border-radius: 10px;
     border: 2px solid #0298b3;
-    -webkit-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
-    -moz-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
-    box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+    -webkit-box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    -moz-box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
 }
-.commit-club .card-commit .person img{
+
+.commit-club .card-commit .person img {
     width: 70%;
     height: 70%;
     border: 1px solid #0298b3;
 }
 
 /* ========== all other members section ========== */
-.commit-club1{
-    /* background: #b67777; */
+.commit-club1 {
     width: 100%;
-    /* border: 1px solid red; */
     height: 250vh;
 }
-.commit-club1 h2{
+
+.commit-club1 h2 {
+    color: rgb(0, 13, 255);
     text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 20px #ff0d00;
 }
-.commit-club1 .card-commit1{
+
+.commit-club1 .card-commit1 {
     height: 100vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 10px;
     /* border: 1px solid red; */
 }
-.commit-club1 .card-commit1 .person1{
-    margin-top: 20px ;
+
+.commit-club1 .card-commit1 .person1 {
+    margin-top: 20px;
     text-align: center;
     border: 4px solid green;
     height: 30%;
     width: 15%;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     gap: 10px;
     border-radius: 38px 38px 38px 38px;
     -moz-border-radius: 38px 38px 38px 38px;
     -webkit-border-radius: 10px;
     border: 2px solid #0298b3;
-    -webkit-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
-    -moz-box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
-    box-shadow: 0px 1px 18px 8px rgba(182,101,214,1);
+    -webkit-box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    -moz-box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    box-shadow: 0px 1px 18px 8px rgba(182, 101, 214, 1);
+    overflow: hidden;
 }
 
-.commit-club1 .card-commit1 .person1 img{
+.commit-club1 .card-commit1 .person1 img {
     height: 80%;
     border: 1px solid #0298b3;
 }
@@ -416,11 +527,12 @@ main {
 
 
 /* about section start  */
-#about{
+#about {
     width: 100%;
     background-color: #8391e0;
 }
-#about h3{
+
+#about h3 {
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
@@ -428,7 +540,8 @@ main {
     text-align: center;
     padding: 20px 0px;
 }
-#about h4{
+
+#about h4 {
     font-size: 20px;
     font-weight: bold;
     color: #38352e;
@@ -436,12 +549,14 @@ main {
     text-align: center;
     padding: 20px 0px;
 }
-.about-sec{
+
+.about-sec {
     display: flex;
     height: 100vh;
     gap: 20px;
     text-wrap: wrap;
 }
+
 /* about section end */
 /* contact us start */
 #contactus {
