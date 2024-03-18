@@ -136,14 +136,21 @@
     #about{
         margin-top: 60%;
     }
+    .about-sec{
+        height: 60vh;
+    }
     /*=== contact us===*/
     #contactus{
-        height: 80vh;
-        margin-bottom: -40px;
+        height: 70vh;
+        /* border: 1px solid red; */
     }
     #contactus .container{
-        height: 60%;
-        width: 80%;
+        height: 70%;
+        width: 90%;
+    }
+    #contactus .container .btn button{
+        width: 25%;
+        height: 20px;
     }
     /*====== footer section =====*/
     .footer-body{
@@ -155,14 +162,9 @@
     }
     .footer-body ul {
         font-size: 15px;
-        gap: 20%;
     }
     .footer-body ul a:hover {
         font-size: 15.5px;
-    }
-    .footer-body ul li{
-        padding-left: 2%;
-        /* justify-content: space-evenly; */
     }
     .footer-body .copyright{
         font-size: 15px;
