@@ -107,19 +107,28 @@
         flex-wrap: wrap;
     }
     .commit-club .card-commit .person{
-        width: 35%;
-        height: 200px;
+        width: 40%;
+        height: 180px;
         font-size: 13px;
     }
     /*=== Other Member ===*/
-    .commit-club1{
+    .container .commit-club1{
         margin-top: 8%;
     }
-    .commit-club1 h2{
+    .container .commit-club1 h2{
         font-size: 23px;
     }
     .commit-club1 .card-commit1{
-        display: flex;
-        flex-wrap: wrap;
+        height: 250vh;
+    }
+    .commit-club1 .card-commit1 .person1 {
+        width: 30%;
+        height: 6%;
+    }
+    .commit-club1 .card-commit1 .person1 img {
+        height: 70%;
+    }
+    .commit-club1 .card-commit1 .person1 p{
+        font-size: 11px;
     }
 }
