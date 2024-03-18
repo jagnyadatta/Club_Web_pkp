@@ -54,6 +54,8 @@ header nav {
     background: #bcbdc2;
     align-items: center;
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 header nav ul {
@@ -521,6 +523,7 @@ main {
 }
 
 .commit-club1 .card-commit1 .person1 img {
+    margin-top: 3%;
     height: 80%;
     border: 1px solid #0298b3;
 }
@@ -529,15 +532,16 @@ main {
 
 /* about section start  */
 #about {
+    margin-top: 4%;
     width: 100%;
-    background-color: #8391e0;
+    /* background-color: #8391e0; */
 }
 
 #about h3 {
     font-size: 30px;
     font-weight: bold;
-    color: #ffffff;
-    text-shadow: 2px 2px 20px #ef00f7;
+    color: rgb(0, 13, 255);
+    text-shadow: 2px 2px 20px #ff0d00;
     text-align: center;
     padding: 20px 0px;
 }
@@ -545,8 +549,8 @@ main {
 #about h4 {
     font-size: 20px;
     font-weight: bold;
-    color: #38352e;
-    text-shadow: 2px 2px 20px #ffffff;
+    color: #2532c3;
+    text-shadow: 2px 2px 20px #f4f008;
     text-align: center;
     padding: 20px 0px;
 }
@@ -567,14 +571,18 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #474F7A;
+    /* background-color: #474F7A; */
     color: #474F7A;
     padding-top: 30px;
 }
 
 #contactus h2 {
-    color: white;
-    text-shadow: 2px 2px 20px white;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 13, 255);
+    text-shadow: 2px 2px 20px #00ff08;
+    text-align: center;
+    padding: 20px 0px;
 }
 
 #contactus .container {
@@ -582,7 +590,23 @@ main {
     flex-direction: column;
     width: 50%;
     height: 100%;
+    margin-top: 2%;
     justify-content: center;
+    background-color: #474F7A;
+    border: 1px solid #474F7A;
+    border-radius: 4%;
+    padding: 5%;
+    border-radius: 38px 38px 38px 38px;
+    -moz-border-radius: 38px 38px 38px 38px;
+    -webkit-border-radius: 10px;
+    border: 2px solid #0298b3;
+    -webkit-box-shadow: 0px 1px 18px 8px rgb(0, 255, 85);
+    -moz-box-shadow: 0px 1px 18px 8px rgb(0, 255, 85);
+    box-shadow: 0px 1px 18px 8px rgba(0, 255, 85);
+}
+#contactus .container p{
+    color: white;
+    margin-top: 10px;
 }
 
 #contactus .container input {
@@ -612,7 +636,7 @@ main {
 .footer-body {
     padding: 40px 0;
     background-color: #aaa5a5;
-    /* margin-top: 25px; */
+    margin-top: 25px;
 }
 
 .footer-body .social {
@@ -644,13 +668,10 @@ main {
 }
 
 .footer-body ul {
-    margin-top: 0;
-    padding: 0;
     list-style: none;
     text-align: center;
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 0;
 }
 
 .footer-body ul a {
@@ -661,7 +682,8 @@ main {
 }
 
 .footer-body ul li {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
     padding: 0 15px;
 }
 

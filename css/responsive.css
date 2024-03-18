@@ -131,4 +131,40 @@
     .commit-club1 .card-commit1 .person1 p{
         font-size: 11px;
     }
+
+    /*====about section======*/
+    #about{
+        margin-top: 60%;
+    }
+    /*=== contact us===*/
+    #contactus{
+        height: 80vh;
+        margin-bottom: -40px;
+    }
+    #contactus .container{
+        height: 60%;
+        width: 80%;
+    }
+    /*====== footer section =====*/
+    .footer-body{
+        height: 20vh;
+        padding: 20px 0;
+    }
+    .footer-body .social a{
+        font-size: 20px;
+    }
+    .footer-body ul {
+        font-size: 15px;
+        gap: 20%;
+    }
+    .footer-body ul a:hover {
+        font-size: 15.5px;
+    }
+    .footer-body ul li{
+        padding-left: 2%;
+        /* justify-content: space-evenly; */
+    }
+    .footer-body .copyright{
+        font-size: 15px;
+    }
 }
