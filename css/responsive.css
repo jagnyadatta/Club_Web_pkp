@@ -142,11 +142,12 @@
     /*=== contact us===*/
     #contactus{
         height: 70vh;
+        width: 100%;
         /* border: 1px solid red; */
     }
     #contactus .container{
         height: 70%;
-        width: 90%;
+        width: 100%;
     }
     #contactus .container .btn button{
         width: 25%;
