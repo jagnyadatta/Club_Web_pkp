@@ -5,7 +5,9 @@ President Name=>Mr. SivaPrasad Dalai
 Secretary Name=>Mr. Sudhir Kumar Dalai
 
 Commit members===
-vice president = Mr. Promod Kumar Dalai
+vice president = Mr. Alok Kumar Dalai
+Cashier = Mr. Sipu Dalai
 Drama Secretary = Mr. Sanjay kumar Dalai
-Sports Secretary = Mr. 
-
+Sports Secretary = Mr. PritiRanjan Dalai
+Puja Secretary = Mr. Lalit Kumar Sahu
+Vice-Puja Secreatary = Mr. Ritik Kumar Dalai
