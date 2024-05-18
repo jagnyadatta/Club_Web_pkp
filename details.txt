@@ -4,6 +4,7 @@ Head of pathagara===
 President Name=>Mr. SivaPrasad Dalai
 Secretary Name=>Mr. Sudhir Kumar Dalai
 
+
 Commit members===
 vice president = Mr. Alok Kumar Dalai
 Cashier = Mr. Sipu Dalai
